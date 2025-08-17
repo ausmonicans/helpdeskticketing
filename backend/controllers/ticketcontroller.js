@@ -26,7 +26,7 @@ const updateTask = async (req, res) => {
 const { title, description, completed, deadline } = req.body; 
 try { 
 const task = await Task.findById(req.params.id); 
-if (!task) return res.status(404).json({ message: 'Ticket not found' }); 
+if (!task) return res.status(404).json({ message: 'Sorry! Ticket not found' }); 
  
 task.title = title || task.title; 
 task.description = description || task.description; 
@@ -44,7 +44,7 @@ res.status(500).json({ message: error.message });
 const deleteTask = async (req, res) => { 
 try { 
 const task = await Task.findById(req.params.id); 
-if (!task) return res.status(404).json({ message: 'Ticket not found' }); 
+if (!task) return res.status(404).json({ message: 'Sorry! Ticket not found' }); 
 await task.remove(); 
 res.json({ message: 'Ticket deleted' }); 
 } catch (error) { 
