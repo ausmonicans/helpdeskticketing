@@ -10,3 +10,4 @@ router.get('/profile', protect, getProfile);
 router.put('/profile', protect, updateUserProfile);
 
 module.exports = router;
+
