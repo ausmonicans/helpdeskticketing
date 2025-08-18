@@ -8,13 +8,45 @@ Ticket Lifecycle Management: Create, assign, update, and close support tickets;
 Status Tracking: Real-time updates on ticket status (To do, doing, done);
 Team Allocation: Assign tickets to specific team members based on expertise or availability.**
 
+This project is for educational and demonstration purposes.
+
+## Tech Stack
+
+Frontend React, Tailwind CSS, Axios
+Backend: Node.js, Express.js, MongoDB, Mongoose
+Authentication: JWT (JSON Web Tokens)
+Dev Tools: VS Code, Git, GitHub
+
+
 **Project setup instructions**
-Have programs installed: Nodejs, Git, Vs code editor, MongoDB account, GitHub account
+Have programs installed: Nodejs, Git, Vs code editor, MongoDB account,Git, GitHub account
 Update your DB connections on .env file 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Public URL of project management.**
+Jira board: https://id.atlassian.com/invite/p/jira-software?id=-Ssl2E2OSwCm__vLexV7vw
+EC2:
+
+
+## Project structure 
+sdlapps/
+  backend/
+    controllers/
+    models/
+    routes/
+    middleware/
+    server.js
+    .env
+  frontend/
+    src/
+      components/
+      pages/
+      context/
+      axiosConfig.jsx
+    public/
+    package.json
+  README.md
+
 
 ## Available Scripts
 
@@ -54,9 +86,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
-**Public URL of your project.**
-Jira board: https://id.atlassian.com/invite/p/jira-software?id=-Ssl2E2OSwCm__vLexV7vw
-EC2:
 
 
 
